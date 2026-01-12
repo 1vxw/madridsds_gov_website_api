@@ -1,4 +1,8 @@
 {
-  "title": "Mission",
-  "content": "To provide efficient, transparent, and accountable public service."
+  "data": [
+    {
+      "title": "Mission",
+      "content": "To provide efficient, transparent, and accountable public service."
+    }
+  ]
 }

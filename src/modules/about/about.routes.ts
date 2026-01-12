@@ -11,5 +11,6 @@ router.get("/mandate", controller.mandate);
 router.get("/history", controller.history);
 router.get("/org-chart", controller.orgChart);
 router.get("/contacts", controller.contacts);
+router.get("/past-mayors", controller.mayors);
 
 export default router;

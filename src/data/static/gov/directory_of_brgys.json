@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "barangay": "Union",
+            "filePath": "src/data/static/gov/assets/union.pdf"
+        },
+        {
+            "barangay": "Songkit",
+            "filePath": "src/data/static/gov/assets/songkit.pdf"
+        },
+        {
+            "barangay": "Manga",
+            "filePath": "src/data/static/gov/assets/manga.pdf"
+        },
+        {
+            "barangay": "Quirino",
+            "filePath": "src/data/static/gov/assets/quirino.pdf"
+        }
+    ]
+}

@@ -6,7 +6,6 @@ export class ErrorHandler {
     err: Error,
     res: Response
   ): void {
-    console.error(err);
     res.status(500).json({
       success: false,
       message: err.message || "Internal Server Error"

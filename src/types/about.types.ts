@@ -19,3 +19,7 @@ export interface Contacts {
   phone: string;
   email: string;
 }
+
+export interface Mayors {
+  mayors: { name: string, year: number }[]
+}

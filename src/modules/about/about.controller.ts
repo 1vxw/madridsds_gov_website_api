@@ -5,6 +5,7 @@ import {
   Mandate,
   OrgChart,
   Contacts,
+  Mayors
 } from '../../types/about.types.js';
 
 export class AboutController {
@@ -82,4 +83,16 @@ export class AboutController {
       next(e);
     }
   };
+
+  mayors = async (
+    _: Request,
+    res: Response<Mayors>,
+    next: NextFunction,
+  ): Promise<void> => {
+    try {
+      res.json(await this.service.getMayors());
+    } catch (e) {
+      next(e);
+    }
+  }
 }

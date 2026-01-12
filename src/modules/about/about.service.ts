@@ -1,13 +1,14 @@
-import { AboutRepository } from "./about.repository.js";
+import { FileUtils } from "../../utils/files.utils.js";
 import {
   StaticSection,
   Mandate,
   OrgChart,
-  Contacts
+  Contacts,
+  Mayors
 } from "../../types/about.types.js";
 
 export class AboutService {
-  constructor(private readonly repo: AboutRepository = new AboutRepository()) {}
+  constructor(private readonly repo: FileUtils = new FileUtils("src/data/static/about")) {}
 
   getMission(): Promise<StaticSection> {
     return this.repo.readJSON<StaticSection>("mission.json");
@@ -31,5 +32,9 @@ export class AboutService {
 
   getContacts(): Promise<Contacts> {
     return this.repo.readJSON<Contacts>("contacts.json");
+  }
+
+  getMayors(): Promise<Mayors> {
+    return this.repo.readJSON<Mayors>("mayors.json");
   }
 }

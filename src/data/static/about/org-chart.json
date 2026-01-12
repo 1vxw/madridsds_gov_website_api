@@ -1,8 +1,18 @@
 {
-  "head": "Agency Head",
-  "units": [
-    { "name": "Finance Division" },
-    { "name": "IT Division" },
-    { "name": "Legal Division" }
+  "data": [
+    {
+      "head": "Agency Head",
+      "units": [
+        {
+          "name": "Finance Division"
+        },
+        {
+          "name": "IT Division"
+        },
+        {
+          "name": "Legal Division"
+        }
+      ]
+    }
   ]
 }

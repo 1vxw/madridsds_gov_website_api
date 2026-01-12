@@ -20,5 +20,11 @@
     "strictNullChecks": false,
     "resolveJsonModule": true, 
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "__tests__/**/*.ts",
+    "__tests__/**/*.mts",
+    "prisma.config.ts",
+    "node_modules/.prisma/client"
+  ]
 }

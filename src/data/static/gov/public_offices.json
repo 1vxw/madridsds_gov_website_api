@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "offices_and_agencies": {
+                "office": "office1",
+                "initialism": "of1"
+            },
+            "contact_info": {
+                "contact_number": "09192025383",
+                "email": "email1@sample.x",
+                "social": {
+                    "type": "fb",
+                    "url": "https://fb.com/profile/1"
+                }
+            },
+            "address": "Office 1, Madrid, SDS 8316",
+            "google_map_url": "https://maps.google.com/loc/office1",
+            "office_in_charge": {
+                "name": "Person 1",
+                "postition": "Position 1"
+            }
+        },
+        {
+            "offices_and_agencies": {
+                "office": "office2",
+                "initialism": "of2"
+            },
+            "contact_info": {
+                "contact_number": "09292025383",
+                "email": "email2@sample.x",
+                "social": {
+                    "type": "fb",
+                    "url": "https://fb.com/profile/2"
+                }
+            },
+            "address": "Office 2, Madrid, SDS 8326",
+            "google_map_url": "https://maps.google.com/loc/office2",
+            "office_in_charge": {
+                "name": "Person 2",
+                "postition": "Position 2"
+            }
+        },
+        {
+            "offices_and_agencies": {
+                "office": "office3",
+                "initialism": "of3"
+            },
+            "contact_info": {
+                "contact_number": "09392025383",
+                "email": "email3@sample.x",
+                "social": {
+                    "type": "fb",
+                    "url": "https://fb.com/profile/3"
+                }
+            },
+            "address": "Office 3, Madrid, SDS 8336",
+            "google_map_url": "https://maps.google.com/loc/office3",
+            "office_in_charge": {
+                "name": "Person 3",
+                "postition": "Position 3"
+            }
+        }
+    ]
+}
