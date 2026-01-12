@@ -1,0 +1,7 @@
+{
+    "past_mayors": [
+        {"name": "Mayor1", "year": 1234},
+        {"name": "Mayor2", "year": 1233},
+        {"name": "Mayor3", "year": 1224}
+    ]
+}
